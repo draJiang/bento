@@ -6,3 +6,5 @@ tag: "install"
 ---
 
 Please click “Open Anyway” in the operating system's Settings under Privacy & Security.
+
+![](jiangzilong-image.oss-cn-beijing.aliyuncs.com/uPic/2Ju4pX.png)
