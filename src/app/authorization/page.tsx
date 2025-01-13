@@ -1,15 +1,7 @@
 'use client'
 
-import { useEffect } from 'react';
+import { useEffect,Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
-// import Link from 'next/link';
-// import Tag from '../ui/Tag';
-// import PostList from '@/app/ui/PostList'
-
-// export const metadata: Metadata = {
-//     title: "authorization",
-//     // description: "Understand potential issues and solutions during product use.",
-// };
 
 export default function Authorization() {
     const searchParams = useSearchParams();
@@ -22,14 +14,15 @@ export default function Authorization() {
             window.open(`bento://notion-authorization?${code}`, '_blank'); // Replace with the actual URL you want to open
         }
 
-    },[])
+    },[code])
 
     return (
-        <main className= "p-4 mt-2 md:mt-14 w-full max-w-2xl" >
-            <div>
-                authorization
-            </div>
-        </main>
-
+        <Suspense fallback={<div>loading...</div>}>
+            <main className= "p-4 mt-2 md:mt-14 w-full max-w-2xl" >
+                <div>
+                    authorization
+                </div>
+            </main>
+        </Suspense>
     );
 }
