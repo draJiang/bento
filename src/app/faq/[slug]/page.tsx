@@ -5,6 +5,11 @@ import { getAllPosts, getPostBySlug } from "../../lib/api";
 import markdownToHtml from "../../lib/markdownToHtml";
 import Tag from "@/app/ui/Tag";
 
+export const metadata: Metadata = {
+    title: "faq-bento",
+    description: "Understand potential issues and solutions during product use.",
+};
+
 export default async function Post({ params }: Params) {
     const post = getPostBySlug(params.slug, "_faqs");
 

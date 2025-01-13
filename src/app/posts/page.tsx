@@ -8,8 +8,8 @@ import PostList from '@/app/ui/PostList'
 import { tree } from 'next/dist/build/templates/app-page';
 
 export const metadata: Metadata = {
-    title: "博客-flomo2md",
-    description: "分享学习、笔记相关的思考与方法",
+    title: "Blog-Bento",
+    description: "Share thoughts and methods related to learning and note-taking.",
 };
 
 export default function Posts() {

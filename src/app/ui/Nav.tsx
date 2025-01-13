@@ -9,7 +9,7 @@ export default function Nav() {
             <div className='m-4 md:px-8 flex items-center'>
                 <div className='grow'>
                     <a href='/'>
-                        <Image className='rounded-md' src='/icon256.png' width={24} height={24} alt='flomo2md' />
+                        <Image className='rounded-md' src='/icon256.png' width={24} height={24} alt='bento' />
                     </a>
                 </div>
                 <div className='flex'>

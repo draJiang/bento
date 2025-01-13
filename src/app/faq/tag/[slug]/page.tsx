@@ -8,8 +8,8 @@ import Tag from '@/app/ui/Tag';
 import PostList from '@/app/ui/PostList'
 
 export const metadata: Metadata = {
-    title: "常见问题-flomo2md",
-    description: "了解产品使用过程中可能存在的问题和解决方案",
+    title: "faq-bento",
+    description: "Understand potential issues and solutions during product use.",
 };
 
 export default function FaqTag({ params }: Params) {
