@@ -13,7 +13,7 @@ export default function Home() {
         <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
         A note-taking tool that allows you to quickly access and edit your notes
         </p>
-        <div className="mt-10 flex items-center justify-center gap-x-6">
+        <div className="mt-10 flex flex-col md:flex-row gap-4 items-center justify-center gap-x-6">
           <a
             href="https://github.com/draJiang/bento/releases/latest/download/Bento-1.0.0-arm64.dmg"
             onClick={() => {}}
