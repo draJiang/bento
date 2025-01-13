@@ -1,11 +1,24 @@
 'use client'
 
-import { useEffect, Suspense } from 'react';
+import { useEffect,Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 
 export default function Authorization() {
+
+    return (
+        <Suspense fallback={<div>loading...</div>}>
+            <main className="p-4 mt-2 md:mt-14 w-full max-w-2xl" >
+                <AuthorizationUI/>
+            </main>
+        </Suspense>
+    );
+
+}
+
+function AuthorizationUI(){
+
     const searchParams = useSearchParams();
-    const code = searchParams.get('code'); // Replace 'yourParamName' with the actual parameter name you want to retrieve
+    const code = searchParams.get('code'); 
 
     useEffect(() => {
 
@@ -17,12 +30,9 @@ export default function Authorization() {
     }, [code])
 
     return (
-        <Suspense fallback={<div>loading...</div>}>
-            <main className="p-4 mt-2 md:mt-14 w-full max-w-2xl" >
-                <div>
-                    authorization
-                </div>
-            </main>
-        </Suspense>
+        <div>
+            authorization
+        </div>
     );
+
 }
