@@ -24,7 +24,7 @@ function AuthorizationUI(){
 
         console.log(code); // You can use this value as needed
         if (code) {
-            window.open(`bento://notion-authorization?${code}`, '_blank'); // Replace with the actual URL you want to open
+            window.open(`bento://notion-authorization?code=${code}`, '_blank'); // Replace with the actual URL you want to open
         }
 
     }, [code])
