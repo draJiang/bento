@@ -20,6 +20,8 @@ Enter Bento: Your Floating Note-Taking Solution
 - 📝 Direct access to both Logseq and Obsidian markdown files
 - 🔗 Seamless sync with your existing knowledge bases
 
+![bento](jiangzilong-image.oss-cn-beijing.aliyuncs.com/uPic/PUgYBM.png)
+
 How to Set It Up:
 
 Getting Started:
