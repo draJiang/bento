@@ -12,9 +12,10 @@ export default function Nav() {
                         <Image className='rounded-md' src='/icon256.png' width={24} height={24} alt='bento' />
                     </a>
                 </div>
-                <div className='flex'>
-                    <a href='/posts' className='mr-6'>Blog</a>
+                <div className='flex flex-row gap-4'>
+                    <a href='/posts'>Blog</a>
                     <a href='/faq'>FAQ</a>
+                    <a href='https://jiangzilong.notion.site/Bento-public-wiki-174596b28b3480e8aad2fb9fb7a9cb71?pvs=4' target='__blank'>Wiki↗</a>
                 </div>
 
             </div>

@@ -46,6 +46,14 @@ export default function Home() {
               导入 Obsidian 支持显示双链
             </p>
           </div> */}
+
+          <div className="flex flex-col justify-center">
+            <video autoPlay muted controls loop  src="/bento_2.mp4" className=" rounded-sm"></video>
+            <p className="text-xs mt-4 text-center	text-slate-500">
+              Capture webpage information, including YouTube timestamps.
+            </p>
+          </div>
+
           <div className="flex flex-col justify-center">
             <video autoPlay muted controls loop  src="/bento.mp4" className=" rounded-sm"></video>
             <p className="text-xs mt-4 text-center	text-slate-500">
