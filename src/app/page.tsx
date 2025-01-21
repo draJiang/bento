@@ -32,7 +32,7 @@ export default function Home() {
           </a>
         </div>
 
-        <div className="flex flex-col justify-center gap-10 items-center my-8">
+        <div className="flex flex-col justify-center gap-10 items-center my-12">
 
           {/* <div className="flex flex-col justify-center">
             <Image
