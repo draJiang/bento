@@ -112,9 +112,9 @@ export default function PricingTable() {
         </div>
       </div> */}
 
-      <div className="mx-auto grid max-w-sm items-start gap-6 lg:max-w-none lg:grid-cols-2">
+      <div className="mx-auto grid max-w-sm items-start gap-6 lg:max-w-none lg:grid-cols-1">
         {/* Pricing tab 1 */}
-        <PricingTab
+        {/* <PricingTab
             url="https://jiang.lemonsqueezy.com/buy/35b3d1d8-3502-4a4c-b872-f8500d88d02d"
           yearly={isAnnual}
           planName="Monthly"
@@ -124,14 +124,14 @@ export default function PricingTable() {
             "Unlimited Editing",
             "1-on-1 Customer Support",
           ]}
-        />
+        /> */}
 
         {/* Pricing tab 3 */}
         <PricingTab
         url="https://jiang.lemonsqueezy.com/buy/2e6fcb35-4527-4487-85bc-503e17ed43f2"
           yearly={isAnnual}
           planName="One-time"
-          price={{ yearly: 9999, monthly: 9999,oneTime:39.99 }}
+          price={{ yearly: 9999, monthly: 9999,oneTime:9.99 }}
           planDescription="One-time payment for lifetime access, no further fees."
           features={[
             "Unlimited Editing",

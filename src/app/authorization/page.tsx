@@ -14,7 +14,7 @@ export default function Authorization() {
     );
 
 }
-
+// 这里是一个注释，说明Authorization组件的功能和用途
 function AuthorizationUI(){
 
     const searchParams = useSearchParams();
