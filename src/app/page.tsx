@@ -15,7 +15,7 @@ export default function Home() {
         </p>
         <div className="mt-10 flex flex-col md:flex-row gap-4 items-center justify-center gap-x-6">
           <a
-            href="https://github.com/draJiang/bento/releases/latest/download/Bento-1.1.1-arm64.dmg"
+            href="https://github.com/draJiang/bento/releases/latest/download/Bento-1.2.0-arm64.dmg"
             onClick={() => {}}
             className=" w-56 flex justify-center flex-row items-center gap-2 rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           >
@@ -23,7 +23,7 @@ export default function Home() {
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-arrow-down-to-line"><path d="M12 17V3"/><path d="m6 11 6 6 6-6"/><path d="M19 21H5"/></svg>
           </a>
           <a
-            href="https://github.com/draJiang/bento/releases/latest/download/Bento-1.1.1.dmg"
+            href="https://github.com/draJiang/bento/releases/latest/download/Bento-1.2.0.dmg"
             onClick={() => {}}
             className=" w-56 flex justify-center flex-row items-center gap-2 rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           >

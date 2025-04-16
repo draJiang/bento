@@ -1,10 +1,8 @@
 ---
 title: "Bento: A Lightweight Local Note-Taking Tool"
 excerpt: "Bento is a lightweight note-taking application focused on local file management. With features like quick launch, seamless integration with local file systems, and a clean design philosophy, Bento serves as an efficient complement to existing knowledge management tools. This post explores how Bento's unique approach to note-taking and information organization can enhance your personal knowledge management workflow."
-date: "2025-01-23"
+date: "2025-04-16"
 ---
-
-# Blog
 
 # Bento: A Lightweight and Efficient Local Note-Taking Tool for More Freedom in Information Management
 
