@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 interface PricingTabProps {
   yearly: boolean;
@@ -78,7 +79,7 @@ export default function PricingTable() {
   const [isAnnual, setIsAnnual] = useState<boolean>(true);
 
   return (
-    <div className=" mt-16 md:mt-28 px-4 max-w-2xl">
+    <div className=" mt-12 md:mt-20 px-4 max-w-2xl">
       {/* Pricing toggle */}
       {/* <div className="m-auto mb-8 flex max-w-[14rem] justify-center lg:mb-16">
         <div className="relative flex w-full rounded-full bg-white p-1 dark:bg-slate-900">
@@ -128,16 +129,35 @@ export default function PricingTable() {
 
         {/* Pricing tab 3 */}
         <PricingTab
-        url="https://jiang.lemonsqueezy.com/buy/2e6fcb35-4527-4487-85bc-503e17ed43f2"
-          yearly={isAnnual}
-          planName="One-time"
-          price={{ yearly: 9999, monthly: 9999,oneTime:9.99 }}
-          planDescription="One-time payment for lifetime access, no further fees."
-          features={[
-            "Unlimited Editing",
-            "1-on-1 Customer Support",
-          ]}
+          url="https://jiang.lemonsqueezy.com/buy/2e6fcb35-4527-4487-85bc-503e17ed43f2"
+            yearly={isAnnual}
+            planName="One-time"
+            price={{ yearly: 9999, monthly: 9999,oneTime:9.99 }}
+            planDescription="One-time payment for lifetime access, no further fees."
+            features={[
+              "Unlimited Editing",
+              "1-on-1 Customer Support",
+            ]}
         />
+      </div>
+      {/* WePay */}
+      <div className="mt-6">
+        <div className="relative flex h-full flex-col items-center rounded-2xl border border-slate-200 bg-white p-6 shadow shadow-slate-950/5 dark:border-slate-900 dark:bg-slate-900">
+        
+          <Image
+            src="/wePay.png"
+            alt="WeChat Pay QR Code"
+            width={240}
+            height={300}
+            className="mx-auto"
+          />
+          <div>
+            <p className="mt-4 text-center text-sm text-slate-500 max-w-80">
+              请在支付时备注邮箱，激活码将发送到此<br/>
+              北京时间 12:00 ~ 02:00 会在 120 分钟内发送到你的邮箱），若迟迟未发请联系邮箱，感谢谅解。
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
